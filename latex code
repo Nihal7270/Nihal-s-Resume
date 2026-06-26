@@ -116,56 +116,47 @@
 
 %-----------SUMMARY-----------
 \section{Summary}
-Aspiring AWS Cloud Engineer with hands-on experience building scalable AWS infrastructure using Terraform and Linux. Skilled in cloud automation, monitoring, troubleshooting, and infrastructure deployment through real-world projects.
+Aspiring AWS Cloud and DevOps Engineer with hands-on experience building and deploying cloud-based projects on AWS. Familiar with Terraform, Jenkins, Ansible, Linux, and monitoring tools like Prometheus and Grafana through practical projects. Eager to apply my skills, keep learning, and contribute to real-world cloud and DevOps environments.
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Cloud:} AWS (EC2, S3, VPC, IAM, CloudFront, Route53, ALB, ASG, RDS, CloudWatch) \\
+\textbf{Cloud:} AWS (EC2, VPC, IAM, S3, ALB, CloudFront, Route53, RDS, ASG, CloudWatch) \\
 \textbf{Infrastructure as Code:} Terraform \\
+\textbf{CI/CD:} Jenkins, Maven, Ansible, Apache Tomcat \\
+\textbf{Monitoring:} Prometheus, Grafana, Node Exporter, CloudWatch \\
 \textbf{Operating Systems:} Linux (Ubuntu, Amazon Linux) \\
 \textbf{Version Control:} Git, GitHub \\
-\textbf{CI/CD:} Jenkins, Maven, SonarQube \\
-\textbf{Monitoring:} CloudWatch \\
-\textbf{Exposure:} Prometheus, Grafana \\
 \textbf{Networking:} TCP/IP, DNS, HTTP/HTTPS, Load Balancing \\
 \textbf{Scripting:} Bash
 }}
 \end{itemize}
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{Project Experience}
+
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{AWS Scalable Web Application Infrastructure} $|$ \emph{AWS, EC2, ALB, ASG, CloudFront, RDS}}{2026}
+{\textbf{End-to-End CI/CD Pipeline for Java WAR Application on AWS} $|$ \emph{AWS, Terraform, Jenkins, Maven, Ansible, Tomcat, S3, ALB, Prometheus, Grafana}}{2026}
 
 \resumeItemListStart
-\resumeItem{Designed and deployed a highly available AWS architecture integrating 8+ AWS services including EC2, ALB, ASG, RDS, CloudFront, and S3.}
-\resumeItem{Implemented secure networking using VPC, IAM, Security Groups, and public/private subnets.}
-\resumeItem{Configured CloudWatch monitoring and documented deployment procedures for troubleshooting and maintenance.}
-\resumeItemListEnd
 
-\resumeProjectHeading
-{\textbf{Automated 3-Tier Infrastructure Deployment using Terraform} $|$ \emph{Terraform, AWS, Apache, GitHub}}{2026}
 
-\resumeItemListStart
-\resumeItem{Automated provisioning of a complete 3-tier AWS environment using Terraform Infrastructure as Code.}
-\resumeItem{Developed reusable Terraform modules for networking, compute, and web server deployment.}
-\resumeItem{Enabled repeatable one-command deployments through GitHub-managed infrastructure code.}
+\resumeItem{Built an end-to-end CI/CD pipeline for a Java WAR application on AWS.}
+
+\resumeItem{Provisioned AWS infrastructure using Terraform and reusable modules.}
+
+\resumeItem{Automated build, testing, artifact creation, and deployment using Jenkins, Maven, and Ansible.}
+
+\resumeItem{Deployed the application across two Tomcat servers behind an Application Load Balancer.}
+
+\resumeItem{Configured Prometheus and Grafana to monitor server health and application infrastructure.}
+
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-
-%-----------HANDS-ON EXPERIENCE-----------
-\section{Hands-on Experience}
-
-\resumeItemListStart
-\resumeItem{Created and managed AWS resources including EC2, VPC, IAM, S3, CloudFront, ALB, ASG, and RDS.}
-\resumeItem{Automated infrastructure provisioning using Terraform and version-controlled configurations with GitHub.}
-\resumeItem{Performed Linux administration, troubleshooting, monitoring, and technical documentation for cloud environments.}
-\resumeItemListEnd
 
 %-----------CERTIFICATIONS-----------
 \section{Certifications}
